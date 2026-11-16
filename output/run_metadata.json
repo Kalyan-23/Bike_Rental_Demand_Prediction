@@ -1,0 +1,81 @@
+{
+  "input_dataset": "C:\\Users\\jayan\\OneDrive\\Desktop\\BIA FINAL PROJECT\\data\\SeoulBikeData.csv",
+  "total_rows": 8760,
+  "split_strategy": "Chronological (First 80% Train, Final 20% Unseen Test)",
+  "train_rows": 7008,
+  "test_rows": 1752,
+  "prediction_mode": "mode1",
+  "best_model": "Extra Trees",
+  "best_model_metrics": {
+    "MAE": 142.0637,
+    "MSE": 53893.3558,
+    "RMSE": 232.1494,
+    "R2": 0.8567,
+    "WAPE": 18.7667,
+    "sMAPE": 24.4028,
+    "Explained_Variance": 0.8592,
+    "Model": "Extra Trees",
+    "Training_Time_s": 0.93,
+    "Hyperparameters": "Default"
+  },
+  "cleaning_audit": {
+    "original_rows": 8760,
+    "duplicate_rows_removed": 0,
+    "invalid_dates_removed": 0,
+    "invalid_target_rows_removed": 0,
+    "final_rows": 8760,
+    "outlier_audit": {
+      "Rented Bike Count": {
+        "q1": 191.0,
+        "q3": 1065.25,
+        "iqr": 874.25,
+        "lower_bound": -1120.375,
+        "upper_bound": 2376.625,
+        "outlier_count": 158
+      },
+      "Temperature(\u00b0C)": {
+        "q1": 3.5,
+        "q3": 22.5,
+        "iqr": 19.0,
+        "lower_bound": -25.0,
+        "upper_bound": 51.0,
+        "outlier_count": 0
+      },
+      "Humidity(%)": {
+        "q1": 42.0,
+        "q3": 74.0,
+        "iqr": 32.0,
+        "lower_bound": -6.0,
+        "upper_bound": 122.0,
+        "outlier_count": 0
+      },
+      "Rainfall(mm)": {
+        "q1": 0.0,
+        "q3": 0.0,
+        "iqr": 0.0,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "outlier_count": 528
+      },
+      "Snowfall (cm)": {
+        "q1": 0.0,
+        "q3": 0.0,
+        "iqr": 0.0,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "outlier_count": 443
+      }
+    }
+  },
+  "artifacts_generated": [
+    "Model_Comparison.csv",
+    "Baseline_Model_Comparison.csv",
+    "Analysis_Summary.csv",
+    "Feature_Importance.csv",
+    "Test_Predictions.csv",
+    "SeoulBike_Cleaned.csv",
+    "SeoulBike_Updated_For_PowerBI.csv",
+    "Descriptive_Statistics.csv",
+    "best_model.joblib"
+  ]
+}

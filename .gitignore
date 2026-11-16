@@ -1,0 +1,24 @@
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local environments and editor files
+.venv/
+venv/
+env/
+.env
+.vscode/
+
+# Model-training logs and generated experiment artifacts
+catboost_info/
+models/
+Project/
+
+# Generated runtime outputs and archives
+Seoul_Bike_Sharing_Intelligence_System.zip
+output/*.joblib
+output/*.pkl
+output/*.pickle

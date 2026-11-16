@@ -1,0 +1,26 @@
+Metric,Value
+Total rentals (Full Year),6172314.0
+Average rentals per hour,704.6
+Median rentals per hour,504.5
+Maximum single-hour rentals,3556.0
+Minimum single-hour rentals,0.0
+Peak rental hour,18
+Lowest rental hour,4
+Highest demand season,Summer
+Lowest demand season,Winter
+Cleaned rows processed,8760
+Best model (Chronological Split),Extra Trees
+Best model test MAE,142.0637
+Best model test RMSE,232.1494
+Best model test R2,0.8567
+Best model test WAPE (%),18.7667
+Best model test sMAPE (%),24.4028
+Correlation: Temperature(°C),0.5386
+Correlation: Hour,0.4103
+Correlation: Dew point temperature(°C),0.3798
+Correlation: Solar Radiation (MJ/m2),0.2618
+Correlation: Visibility (10m),0.1993
+Correlation: Wind speed (m/s),0.1211
+Correlation: Rainfall(mm),-0.1231
+Correlation: Snowfall (cm),-0.1418
+Correlation: Humidity(%),-0.1998

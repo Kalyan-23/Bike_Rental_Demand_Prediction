@@ -1,0 +1,5 @@
+MAE,MSE,RMSE,R2,WAPE,sMAPE,Explained_Variance,Model,Split_Type
+84.632,27663.3547,166.323,0.9336,12.0226,21.9057,0.9336,Extra Trees,Random 80/20 (Historical Baseline)
+98.1207,31889.4944,178.5763,0.9235,13.9388,22.7982,0.9235,Random Forest,Random 80/20 (Historical Baseline)
+147.3558,51639.981,227.2443,0.8761,20.933,38.5433,0.8763,Gradient Boosting,Random 80/20 (Historical Baseline)
+300.3895,153813.3017,392.1904,0.6308,42.6727,65.0708,0.6309,Ridge Regression,Random 80/20 (Historical Baseline)
