@@ -115,8 +115,7 @@ The project includes an interactive Streamlit application with the following sec
 
 ### Power BI Dashboard
 
-![Power BI Dashboard](<img width="1282" height="721" alt="Screenshot 2026-11-16 195409" src="https://github.com/user-attachments/assets/539f5399-f5aa-49d1-9371-25be36ec6c14" />
-)
+<img width="1282" height="721" alt="Screenshot 2026-11-16 195409" src="https://github.com/user-attachments/assets/9293557c-dfa6-4306-9a28-2ad2e61af839" />
 
 ## Power BI Integration
 
